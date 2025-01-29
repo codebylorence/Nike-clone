@@ -1,0 +1,14 @@
+* {
+  font-family: 'Helvetica Now Text', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 130px;
+}
+
+p, .product-preview{
+  margin: 0;
+}

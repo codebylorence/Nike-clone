@@ -1,0 +1,52 @@
+.product-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+@media (max-width: 750px) {
+
+  .product-card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media (min-width: 1000px) {
+
+  .product-card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+}
+
+.product-image {
+  width: 100%;
+}
+
+.product-availability {
+  color: rgb(158, 53, 0);
+  font-size: 16px;
+}
+
+.product-name {
+  color: rgb(17, 17, 17);
+}
+
+.product-gender, .product-color {
+  color: rgb(112, 112, 114);
+}
+
+.product-price, .product-availability {
+  padding: 10px 0px 10px;
+}
+
+.product-offer {
+  color: rgb(0, 125, 72);
+}
+
+.product-card {
+  padding: 10px 10px 0px 10px;
+}
+

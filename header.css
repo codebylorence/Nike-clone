@@ -1,0 +1,180 @@
+header {
+  display: flex;
+  background-color: rgb(247, 247, 247);
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  align-items: center;
+}
+
+
+.logo {
+  width: 19px;
+}
+
+.left-section {
+  flex: 1;
+  padding-left: 48px;
+}
+
+.right-section{
+  display: grid;
+  justify-content: end;
+  flex: 1;
+  grid-area: right;
+  padding-right: 48px;
+  font-size: 12px;
+}
+
+.navbar ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  padding: 10px 1px;
+}
+
+.navbar li {
+  position: relative;
+  list-style-type: none;
+}
+
+/* Style for links */
+.navbar a {
+  text-decoration: none;
+  color: rgb(17, 17, 17);
+  font-weight: 500;
+  padding: 5px 3px;
+}
+
+/* Separator styling */
+.navbar li:not(:last-child)::after {
+  content: "|";
+  position: absolute;
+  right: -11px;  /* Adjust for spacing between item and separator */
+  color: #666;
+  font-weight: normal;
+}
+
+a:hover {
+  color :rgb(112, 112, 114);
+}
+
+/* navbar-2 */
+.navbar-2 {
+  display: flex;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  left: 0;
+  height: 60px;
+  align-items: center;
+}
+
+.nike-logo {
+  width: 78px;
+}
+
+.nav-left-section {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.nav-middle-section {
+  width: 800px;
+}
+
+.menu-item {
+  padding-left: 23px;
+}
+
+.desktop-category {
+  justify-content: center;
+}
+
+.desktop-category, .menu-item {
+  display: flex;
+  font-size: 16px;
+  color: rgb(17, 17, 17);
+  font-weight: 500;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav-right-section {
+  flex: 1;
+  padding-right: 40px;
+  justify-items: end;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar-logo {
+  position: relative;
+}
+
+.search-bar {
+  width: 170px;
+  height: 35px;
+  background-color: rgb(247, 247, 247);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  padding-left: 38px;
+  margin-right: 20px;
+}
+
+.search-bar:hover, .heart-button:hover, .bag-button:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+.heart-button, .bag-button, .search-button {
+  width: 35px;
+  height: 35px;
+  border-radius: 17px;
+  border: none;
+}
+
+.search-button {
+  background-color: rgb(247, 247, 247);
+  border: none;
+  position: absolute;
+}
+
+.search-button:hover {
+  background-color: rgb(201, 201, 201);
+}
+
+.search-logo {
+  width: 26px;
+  padding-top: 2px;
+}
+
+.heart-logo {
+  width: 20px;
+  padding-top: 5px;
+}
+
+.bag-logo {
+  width: 22px;
+  padding-top: 4px;
+}
+
+.bag-button {
+  margin-left: 10px;
+}
+
+.heart-button, .bag-button {
+  background-color: white;
+}
+
+
+
+
+
+
